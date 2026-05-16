@@ -1,4 +1,9 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(cd /Users/jacob.radcliffe/.claude/plugins/cache/claude-plugins-official/skill-creator/unknown/skills/skill-creator && python3 -m scripts.*)"
+    ]
+  },
   "hooks": {
     "PostToolUse": [
       {
